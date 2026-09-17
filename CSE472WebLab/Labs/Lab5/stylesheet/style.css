@@ -1,0 +1,55 @@
+
+.card {
+    width: 500px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: #f5f7fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.card h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.card > p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.card button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
+
+.card p strong {
+    color: #333;
+}
+
+.card span {
+    color: #007bff;
+    font-weight: bold;
+}
+
+#loadMessage {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin-top: 15px;
+}
